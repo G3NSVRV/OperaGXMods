@@ -27,76 +27,74 @@
             {
                 "CLICK":
                 [
-                    "sound/click.mp3"
+                    "sound/core_46.ogg"
                 ],
                 "FEATURE_SWITCH_OFF":
                 [
-                    "sound/feature_switch_off.mp3"
+                    "sound/core_23.ogg"
                 ],
                 "FEATURE_SWITCH_ON":
                 [
-                    "sound/feature_switch_on.mp3"
+                    "sound/core_44.ogg"
                 ],
                 "HOVER":
                 [
-                    "sound/hover.mp3"
+                    "sound/core_10.ogg"
                 ],
                 "HOVER_UP":
                 [
-                    "sound/hover.mp3"
+                    "sound/core_10.ogg"
                 ],
                 "IMPORTANT_CLICK":
                 [
-                    "sound/important_click.mp3"
+                    "sound/core_4.ogg"
                 ],
                 "LEVEL_UPGRADE":
                 [
-                    "sound/level_upgrade.mp3"
+                    "sound/core_27.ogg"
                 ],
                 "LIMITER_OFF":
                 [
-                    "sound/limiter_off.mp3"
+                    "sound/core_23.ogg"
                 ],
                 "LIMITER_ON":
                 [
-                    "sound/limiter_on.mp3"
+                    "sound/core_44.ogg"
                 ],
                 "SWITCH_TOGGLE":
                 [
-                    "sound/switch.mp3"
+                    "sound/core_12.ogg"
                 ],
                 "TAB_CLOSE":
                 [
-                    "sound/close_tab.mp3"
+                    "sound/core_69.ogg"
                 ],
                 "TAB_INSERT":
                 [
-                    "sound/new_tab.mp3"
+                    "sound/core_46.ogg"
                 ],
                 "TAB_SLASH":
                 [
-                    "sound/tab_slash.mp3"
+                    "sound/core_6.ogg"
                 ]
             },
             "keyboard_sounds":
             {
                 "TYPING_BACKSPACE":
                 [
-                    "keyboard/backspace.wav"
+                    "sound/core_69.ogg"
                 ],
                 "TYPING_ENTER":
                 [
-                    "keyboard/enter.wav"
+                    "sound/core_52.ogg"
                 ],
                 "TYPING_LETTER":
                 [
-                    "keyboard/letter_1.wav",
-                    "keyboard/letter_2.wav",
-                    "keyboard/letter_3.wav"
+                    "sound/core_15.ogg"
                 ],
                 "TYPING_SPACE":
                 [
-                    "keyboard/space.wav"
+                    "sound/core_54.ogg"
                 ]
             },
             "page_styles":
