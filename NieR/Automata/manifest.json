@@ -7,20 +7,21 @@
     },
     "icons":
     {
-        "512": "icon_512.png"
+        "240": "icon.png"
     },
     "manifest_version": 3,
     "mod":
     {
-        "license": "license.txt",
+        "license": "LICENSE",
         "payload":
         {
             "background_music":
             [
-                "music/track_1.mp3",
-                "music/track_2.mp3",
-                "music/track_3.mp3",
-                "music/track_4.mp3"
+                "music/mod-track_01.aac",
+                "music/mod-track_02.aac",
+                "music/mod-track_03.aac",
+                "music/mod-track_04.aac"
+                
             ],
             "browser_sounds":
             {
@@ -133,30 +134,30 @@
                 {
                     "gx_accent":
                     {
-                        "h": 85,
-                        "s": 100,
-                        "l": 72
+                        "h": 0,
+                        "s": 0,
+                        "l": 98
                     },
                     "gx_secondary_base":
                     {
-                        "h": 272,
-                        "s": 64,
-                        "l": 16
+                        "h": 0,
+                        "s": 3,
+                        "l": 93
                     }
                 },
                 "light":
                 {
                     "gx_accent":
                     {
-                        "h": 112,
-                        "s": 80,
-                        "l": 44
+                        "h": 50,
+                        "s": 12,
+                        "l": 28
                     },
                     "gx_secondary_base":
                     {
-                        "h": 272,
-                        "s": 32,
-                        "l": 16
+                        "h": 48,
+                        "s": 19,
+                        "l": 73
                     }
                 }
             },
@@ -164,16 +165,15 @@
             {
                 "dark":
                 {   
-                    "image": "wallpaper/dark.png",
-                    "text_color": "#FFFFFF",
-                    "text_shadow": "#757575"
+                    "image": "wallpaper/iMrKRSd.png",
+                    "text_color": "#fbfbfb",
+                    "text_shadow": "#514e3f"
                 },
                 "light":
                 {
-                    "image": "wallpaper/video.webm",
-                    "first_frame": "wallpaper/first_frame.jpeg",
-                    "text_color": "#FFFFFF",
-                    "text_shadow": "#0B000E"
+                    "image": "wallpaper/ndDVXru.png",
+                    "text_color": "#514e3f",
+                    "text_shadow": "#b9b4a0"
                 }
             }
         },
