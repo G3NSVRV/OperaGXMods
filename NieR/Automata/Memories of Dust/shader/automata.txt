@@ -6,7 +6,7 @@ uniform shader iChunk;
 // An exponent of 1 have no effect on the color channel.
 // A higher exponent results in a darker color.
 // And a lower exponent will be brighter.
-const float4 TINT = float4(1.33, 0.8, 1.33, 1);
+const float4 TINT = float4(0.23,0.25,0.34,1);
 
 vec4 main(vec2 xy)
 {
