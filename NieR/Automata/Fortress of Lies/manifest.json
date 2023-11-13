@@ -1,5 +1,5 @@
 {
-    "name": "NieR Automata (FoL)",
+    "name": "NieR Automata (FOL)",
     "description": "High Quality NieR Automata (Fortress of Lies -ver)",
     "developer":
     {
@@ -159,5 +159,5 @@
         },
         "schema_version": 1
     },
-    "version": "1.1.4"
+    "version": "1.1.5"
 }

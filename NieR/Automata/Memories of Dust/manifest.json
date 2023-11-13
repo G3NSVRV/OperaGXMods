@@ -1,5 +1,5 @@
 {
-    "name": "NieR Automata (MoD)",
+    "name": "NieR Automata (MOD)",
     "description": "High Quality NieR Automata (Memories of Dust -ver)",
     "developer":
     {
@@ -161,5 +161,5 @@
         },
         "schema_version": 1
     },
-    "version": "1.1.4"
+    "version": "1.1.5"
 }
