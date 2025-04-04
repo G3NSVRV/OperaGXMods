@@ -13,171 +13,204 @@
     "manifest_version": 3,
     "mod":
     {
+        "schema_version": 2,
+        "tags": [ "nier automata", "fortress of lies", "anime" ],
         "license": "LICENSE",
         "payload":
         {
             "app_icon":
-            {
-                "id": "app_icon-01",
-                "name": "NieR Automata",
-                "path": "icon.png"
-            },
-            "background_music":
-            [
-                "music/fol-track_01.aac",
-                "music/fol-track_02.aac"
-                
-            ],
-            "browser_sounds":
-            {
-                "CLICK":
-                [
-                    "sound/core_46.ogg"
-                ],
-                "FEATURE_SWITCH_OFF":
-                [
-                    "sound/core_23.ogg"
-                ],
-                "FEATURE_SWITCH_ON":
-                [
-                    "sound/core_44.ogg"
-                ],
-                "HOVER":
-                [
-                    "sound/core_10.ogg"
-                ],
-                "HOVER_UP":
-                [
-                    "sound/core_10.ogg"
-                ],
-                "IMPORTANT_CLICK":
-                [
-                    "sound/core_4.ogg"
-                ],
-                "LEVEL_UPGRADE":
-                [
-                    "sound/core_27.ogg"
-                ],
-                "LIMITER_OFF":
-                [
-                    "sound/core_23.ogg"
-                ],
-                "LIMITER_ON":
-                [
-                    "sound/core_44.ogg"
-                ],
-                "SWITCH_TOGGLE":
-                [
-                    "sound/core_12.ogg"
-                ],
-                "TAB_CLOSE":
-                [
-                    "sound/core_69.ogg"
-                ],
-                "TAB_INSERT":
-                [
-                    "sound/core_46.ogg"
-                ],
-                "TAB_SLASH":
-                [
-                    "sound/core_6.ogg"
-                ]
-            },
-            "keyboard_sounds":
-            {
-                "TYPING_BACKSPACE":
-                [
-                    "sound/core_69.ogg"
-                ],
-                "TYPING_ENTER":
-                [
-                    "sound/core_52.ogg"
-                ],
-                "TYPING_LETTER":
-                [
-                    "sound/core_15.ogg"
-                ],
-                "TYPING_SPACE":
-                [
-                    "sound/core_54.ogg"
-                ]
-            },
-            "page_styles":
             [
                 {
-                    "css":
+                    "id": "app_icon-01",
+                    "name": "NieR Automata",
+                    "path": "icon.png"
+                }
+            ],
+            "background_music":
+            [
+                {
+                    "author": "Keiichi Okabe",
+                    "id": "music-01",
+                    "name": "Fortress of Lies",
+                    "tracks":
                     [
-                        "webmodding/opera.css"
-                    ],
-                    "matches":
-                    [
-                        "https://*.opera.com/*"
+                        "music/fol-track_01.aac",
+                        "music/fol-track_02.aac"
                     ]
                 }
             ],
+            "browser_sounds":
+            [
+                {
+                    "id": "0",
+                    "name": "NieR Automata HUD",
+                    "sounds":
+                    {
+                        "CLICK":
+                        [
+                            "sound/core_46.ogg"
+                        ],
+                        "FEATURE_SWITCH_OFF":
+                        [
+                            "sound/core_23.ogg"
+                        ],
+                        "FEATURE_SWITCH_ON":
+                        [
+                            "sound/core_44.ogg"
+                        ],
+                        "HOVER":
+                        [
+                            "sound/core_10.ogg"
+                        ],
+                        "HOVER_UP":
+                        [
+                            "sound/core_10.ogg"
+                        ],
+                        "IMPORTANT_CLICK":
+                        [
+                            "sound/core_4.ogg"
+                        ],
+                        "LEVEL_UPGRADE":
+                        [
+                            "sound/core_27.ogg"
+                        ],
+                        "LIMITER_OFF":
+                        [
+                            "sound/core_23.ogg"
+                        ],
+                        "LIMITER_ON":
+                        [
+                            "sound/core_44.ogg"
+                        ],
+                        "SWITCH_TOGGLE":
+                        [
+                            "sound/core_12.ogg"
+                        ],
+                        "TAB_CLOSE":
+                        [
+                            "sound/core_69.ogg"
+                        ],
+                        "TAB_INSERT":
+                        [
+                            "sound/core_46.ogg"
+                        ],
+                        "TAB_SLASH":
+                        [
+                            "sound/core_6.ogg"
+                        ]
+                    }
+                }
+            ],
+            "keyboard_sounds":
+            [
+                {
+                    "id": "0",
+                    "name": "NieR Automata HUD",
+                    "sounds":
+                    {
+                        "TYPING_BACKSPACE":
+                        [
+                            "sound/core_69.ogg"
+                        ],
+                        "TYPING_ENTER":
+                        [
+                            "sound/core_52.ogg"
+                        ],
+                        "TYPING_LETTER":
+                        [
+                            "sound/core_15.ogg"
+                        ],
+                        "TYPING_SPACE":
+                        [
+                            "sound/core_54.ogg"
+                        ]
+                    }
+                }
+            ],
             "theme":
-            {
-                "dark":
+            [
                 {
-                    "gx_accent":
+                    "id": "0",
+                    "name": "NieR Automata HUD",
+                    "dark":
                     {
-                        "h": 0,
-                        "s": 0,
-                        "l": 98
+                        "gx_accent":
+                        {
+                            "h": 0,
+                            "s": 0,
+                            "l": 98
+                        },
+                        "gx_secondary_base":
+                        {
+                            "h": 0,
+                            "s": 3,
+                            "l": 93
+                        }
                     },
-                    "gx_secondary_base":
+                    "light":
                     {
-                        "h": 0,
-                        "s": 3,
-                        "l": 93
-                    }
-                },
-                "light":
-                {
-                    "gx_accent":
-                    {
-                        "h": 50,
-                        "s": 12,
-                        "l": 28
-                    },
-                    "gx_secondary_base":
-                    {
-                        "h": 48,
-                        "s": 19,
-                        "l": 73
+                        "gx_accent":
+                        {
+                            "h": 50,
+                            "s": 12,
+                            "l": 28
+                        },
+                        "gx_secondary_base":
+                        {
+                            "h": 48,
+                            "s": 19,
+                            "l": 73
+                        }
                     }
                 }
-            },
+            ],
             "wallpaper":
-            {
-                "dark":
-                {   
-                    "image": "wallpaper/iMrKRSd.png",
-                    "text_color": "#fbfbfb",
-                    "text_shadow": "#514e3f"
-                },
-                "light":
+            [
                 {
-                    "image": "wallpaper/ndDVXru.png",
-                    "text_color": "#514e3f",
-                    "text_shadow": "#b9b4a0"
-                }
-            },
-            "fonts":
-            {
-                "id": "font-01",
-                "name": "NieR Automata",
-                "body":
-                {
-                    "name": "FOT-Rodin Pro Font Family",
-                    "variants":
+                    "id": "wallpaper-01",
+                    "name": "NieR Automata HUD",
+                    "title": "NieR Automata HUD",
+                    "dark":
+                    {   
+                        "image": "wallpaper/iMrKRSd.png",
+                        "text_color": "#fbfbfb",
+                        "text_shadow": "#514e3f"
+                    },
+                    "light":
                     {
-                        "path": "font/fot-rodin-pro-db.otf"
+                        "image": "wallpaper/ndDVXru.png",
+                        "text_color": "#514e3f",
+                        "text_shadow": "#b9b4a0"
                     }
                 }
-            }
-        },
-        "schema_version": 2,
-        "tags": [ "nier automata", "fortress of lies", "anime" ]
+            ],
+            "fonts":
+            [
+                {
+                    "id": "font-01",
+                    "name": "NieR Automata",
+                    "body":
+                    {
+                        "name": "FOT-Rodin Pro Font Family",
+                        "variants":
+                        [
+                            {
+                                "path": "font/fot-rodin-pro-db.otf"
+                            }
+                        ]
+                    },
+                    "header":
+                    {
+                        "name": "FOT-Rodin Pro Font Family",
+                        "variants":
+                        [
+                            {
+                                "path": "font/fot-rodin-pro-db.otf"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
     }
 }
