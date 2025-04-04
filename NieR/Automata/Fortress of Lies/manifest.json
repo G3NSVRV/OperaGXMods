@@ -5,6 +5,7 @@
     {
         "name": "g3nsvrv"
     },
+    "version": "1.2.0",
     "icons":
     {
         "240": "icon.png"
@@ -15,6 +16,12 @@
         "license": "LICENSE",
         "payload":
         {
+            "app_icon":
+            {
+                "id": "app_icon-01",
+                "name": "NieR Automata",
+                "path": "icon.png"
+            },
             "background_music":
             [
                 "music/fol-track_01.aac",
@@ -155,9 +162,22 @@
                     "text_color": "#514e3f",
                     "text_shadow": "#b9b4a0"
                 }
+            },
+            "fonts":
+            {
+                "id": "font-01",
+                "name": "NieR Automata",
+                "body":
+                {
+                    "name": "FOT-Rodin Pro Font Family",
+                    "variants":
+                    {
+                        "path": "font/fot-rodin-pro-db.otf"
+                    }
+                }
             }
         },
-        "schema_version": 1
-    },
-    "version": "1.1.5"
+        "schema_version": 2,
+        "tags": [ "nier automata", "fortress of lies", "anime" ]
+    }
 }
