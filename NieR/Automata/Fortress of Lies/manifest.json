@@ -191,17 +191,17 @@
                     "name": "NieR Automata",
                     "body":
                     {
-                        "name": "FOT-Rodin Pro Font Family",
+                        "name": "FOT-Rodin Pro body",
                         "variants":
                         [
                             {
-                                "path": "font/fot-rodin-pro-db.otf"
+                                "path": "font/fot-rodin-pro-m.otf"
                             }
                         ]
                     },
                     "header":
                     {
-                        "name": "FOT-Rodin Pro Font Family",
+                        "name": "FOT-Rodin Pro header",
                         "variants":
                         [
                             {
