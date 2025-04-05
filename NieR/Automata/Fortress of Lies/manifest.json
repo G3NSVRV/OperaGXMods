@@ -164,6 +164,14 @@
                     }
                 }
             ],
+            "splash_screen":
+            [
+                {
+                    "id": "splash_screen_01",
+                    "name": "Square Enix",
+                    "path": "splash/logo_4k_01.mp4"
+                }
+            ],
             "wallpaper":
             [
                 {
@@ -171,7 +179,7 @@
                     "name": "NieR Automata HUD",
                     "title": "NieR Automata HUD",
                     "dark":
-                    {   
+                    {
                         "image": "wallpaper/iMrKRSd.png",
                         "text_color": "#fbfbfb",
                         "text_shadow": "#514e3f"
